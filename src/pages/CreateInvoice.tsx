@@ -68,7 +68,7 @@ const CreateInvoice = () => {
   };
   
   const calculateTotal = () => {
-    return calculateSubtotal() + calculateGST();
+    return calculateSubtotal();
   };
   
   const handleInvoiceChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
